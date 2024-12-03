@@ -10,8 +10,11 @@ public class ConventionsAndSyntax : MonoBehaviour
     {
         //i want the exposition of my game object to appear on the console
         Debug.Log(transform.position.x);
-    }
 
+        if (transform.position.y <= 5f);
+    }
+    
+    
     // Update is called once per frame
     void Update()
     {
@@ -19,8 +22,8 @@ public class ConventionsAndSyntax : MonoBehaviour
      //Debug.Log (transform.position.y);
 
         //I want the console to say something if my object is below 5
-        if (transform.position.y <= 5f)
+        
     }
-    {
-    Debug.Log("I am about to hit the ground");
+    
+   
 }
